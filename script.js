@@ -2,7 +2,7 @@ data={empty:0,full:0,places:0};
 
 function callAPI() {
   $.ajax({
-    url: "http://mdakk072.pythonanywhere.com/status",
+    url: "https://mdakk072.pythonanywhere.com/status",
     type: "GET",
     success: function(response) {
 	  data=response;
